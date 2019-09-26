@@ -11,6 +11,10 @@ WeChatSDK  官方同步
 ## update
 SDK1.8.6.1
 
+```xml
+1.添加universalLink 参数 必须是https开头
+2.info.plist 添加 <string>weixinULAPI</string>
+```
 1. UIWebview切换成WKWebview
 2. 支持Universal Link拉起微信以及返回App
 3. 移除MTA库
