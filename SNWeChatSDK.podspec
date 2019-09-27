@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "SDK/*.h"
   s.vendored_libraries = "SDK/*.a"
   s.requires_arc = false
-  s.frameworks = 'SystemConfiguration','CoreTelephony', "Security", "CoreTelephony", "CFNetwork", "UIKit"
+  s.frameworks = 'SystemConfiguration','CoreTelephony', "Security", "WebKit", "CoreTelephony", "CFNetwork", "UIKit"
   s.libraries = 'z', 'sqlite3.0', 'c++'
 
 end
