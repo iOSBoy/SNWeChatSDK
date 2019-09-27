@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     :git => "https://github.com/iOSBoy/SNWeChatSDK.git",
     :tag => s.version
   }
-  s.platform = :ios, "7.0"
+  s.platform = :ios, "8.0"
   s.source_files = "SDK/*.h"
   s.public_header_files = "SDK/*.h"
   s.vendored_libraries = "SDK/*.a"
