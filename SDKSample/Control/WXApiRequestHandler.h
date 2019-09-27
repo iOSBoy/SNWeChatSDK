@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WXApiObject.h"
+#import <WXApiObject.h>
 
 @interface WXApiRequestHandler : NSObject
 

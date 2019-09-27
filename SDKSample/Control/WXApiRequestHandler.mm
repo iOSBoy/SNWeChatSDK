@@ -6,7 +6,7 @@
 //
 //
 
-#import "WXApi.h"
+#import <WXApi.h>
 #import "WXApiRequestHandler.h"
 #import "WXApiManager.h"
 #import "SendMessageToWXReq+requestWithTextOrMediaMessage.h"

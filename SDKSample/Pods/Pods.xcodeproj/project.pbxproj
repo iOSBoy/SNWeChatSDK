@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C2AB6F93870D99E2F28B20A34EBE2820 /* SNWeChatSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B95B056CF6374B99E288B87A368F18BB /* Build configuration list for PBXAggregateTarget "SNWeChatSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SNWeChatSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		BDEA7C0FBDE521B09EC7898EB55EA490 /* Pods-SDKSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DBF850C9F039B9D70AD4D3AEFCE064 /* Pods-SDKSample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F3186C15556657F5723D86A7F50E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AB6F93870D99E2F28B20A34EBE2820;
+			remoteInfo = SNWeChatSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AE012C6CBC8578E9341DB922D205ED /* libPods-SDKSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SDKSample.a"; path = "libPods-SDKSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3A398908BC3E2760F4770B9DAEE1EE /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SDK/WXApiObject.h; sourceTree = "<group>"; };
+		17B2439E733AA5C379CC994DEB04EE63 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		263137AB1B52F39BB5ED51DA598AB9A1 /* SNWeChatSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNWeChatSDK.xcconfig; sourceTree = "<group>"; };
+		34A733CDD24A2B04505538A6FDD5D854 /* Pods-SDKSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKSample.release.xcconfig"; sourceTree = "<group>"; };
+		4A335F9E785F7E27543CE707C2F3CF66 /* Pods-SDKSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		63526BF97F4CE57178665E891BEA206F /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		90DBF850C9F039B9D70AD4D3AEFCE064 /* Pods-SDKSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKSample-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF0697E5CE072403BF1146F779A6BB61 /* SNWeChatSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SNWeChatSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE51EF74B4DA7408B3C2E7CEC3B98927 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D71C8D67B4BDFB104C92D72ED2BE1310 /* Pods-SDKSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC48ACFBE5376E712017AA15DF612262 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SDK/WXApi.h; sourceTree = "<group>"; };
+		EBABFAF35335E89AD7A04DDF650773AE /* Pods-SDKSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKSample.debug.xcconfig"; sourceTree = "<group>"; };
+		EDB8B560446ACAAFC233ABA739564A16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8324B420203B59C382A5D1A3FF9EECEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EDF1D06AE270DAA4976C0FD35FCAFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63526BF97F4CE57178665E891BEA206F /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CE048E26E96D3075B9AAD7408DA7921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07AE012C6CBC8578E9341DB922D205ED /* libPods-SDKSample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E042C4A1B120EF37B6F1F279213607 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47EF75ACDF0F2C421205F4AEC7B54BD8 /* SNWeChatSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		47EF75ACDF0F2C421205F4AEC7B54BD8 /* SNWeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				17B2439E733AA5C379CC994DEB04EE63 /* WechatAuthSDK.h */,
+				DC48ACFBE5376E712017AA15DF612262 /* WXApi.h */,
+				0F3A398908BC3E2760F4770B9DAEE1EE /* WXApiObject.h */,
+				01EDF1D06AE270DAA4976C0FD35FCAFD /* Frameworks */,
+				4ACF48458FA5692863DCBF212D1A742C /* Pod */,
+				CF07D58C157205DA8D1E8B58D812656D /* Support Files */,
+			);
+			name = SNWeChatSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4ACF48458FA5692863DCBF212D1A742C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EDB8B560446ACAAFC233ABA739564A16 /* LICENSE */,
+				CE51EF74B4DA7408B3C2E7CEC3B98927 /* README.md */,
+				BF0697E5CE072403BF1146F779A6BB61 /* SNWeChatSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A33FC9CCA385F4BDC52C30B21A88462F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBA177F8931349A283FBE3F3295736AC /* Pods-SDKSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF07D58C157205DA8D1E8B58D812656D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				263137AB1B52F39BB5ED51DA598AB9A1 /* SNWeChatSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "SDKSample/Pods/Target Support Files/SNWeChatSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				47E042C4A1B120EF37B6F1F279213607 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0CE048E26E96D3075B9AAD7408DA7921 /* Products */,
+				A33FC9CCA385F4BDC52C30B21A88462F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBA177F8931349A283FBE3F3295736AC /* Pods-SDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				D71C8D67B4BDFB104C92D72ED2BE1310 /* Pods-SDKSample-acknowledgements.markdown */,
+				4A335F9E785F7E27543CE707C2F3CF66 /* Pods-SDKSample-acknowledgements.plist */,
+				90DBF850C9F039B9D70AD4D3AEFCE064 /* Pods-SDKSample-dummy.m */,
+				EBABFAF35335E89AD7A04DDF650773AE /* Pods-SDKSample.debug.xcconfig */,
+				34A733CDD24A2B04505538A6FDD5D854 /* Pods-SDKSample.release.xcconfig */,
+			);
+			name = "Pods-SDKSample";
+			path = "Target Support Files/Pods-SDKSample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		608F03114E772A95C5BB4DF2CE63851D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9617A4781E1CD33834A77031E165440F /* Pods-SDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F04462F67CBC46919955902AB6D668 /* Build configuration list for PBXNativeTarget "Pods-SDKSample" */;
+			buildPhases = (
+				608F03114E772A95C5BB4DF2CE63851D /* Headers */,
+				F323BDF820271C45A0A3FFF4796E4C9A /* Sources */,
+				8324B420203B59C382A5D1A3FF9EECEB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D523CC0C289502B9658C18B86FEEFC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDKSample";
+			productName = "Pods-SDKSample";
+			productReference = 07AE012C6CBC8578E9341DB922D205ED /* libPods-SDKSample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0CE048E26E96D3075B9AAD7408DA7921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9617A4781E1CD33834A77031E165440F /* Pods-SDKSample */,
+				C2AB6F93870D99E2F28B20A34EBE2820 /* SNWeChatSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F323BDF820271C45A0A3FFF4796E4C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEA7C0FBDE521B09EC7898EB55EA490 /* Pods-SDKSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D523CC0C289502B9658C18B86FEEFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SNWeChatSDK;
+			target = C2AB6F93870D99E2F28B20A34EBE2820 /* SNWeChatSDK */;
+			targetProxy = 04F3186C15556657F5723D86A7F50E43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		210002D8D98ED55CD263D89E8AF9832D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBABFAF35335E89AD7A04DDF650773AE /* Pods-SDKSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5F22C73B247DDAE4F223BEA72044C1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263137AB1B52F39BB5ED51DA598AB9A1 /* SNWeChatSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DB73A28E02ED6401DF406540FFEF74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A733CDD24A2B04505538A6FDD5D854 /* Pods-SDKSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AE3E1B8390E9221F455EBD5D0AC634CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263137AB1B52F39BB5ED51DA598AB9A1 /* SNWeChatSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95B056CF6374B99E288B87A368F18BB /* Build configuration list for PBXAggregateTarget "SNWeChatSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F22C73B247DDAE4F223BEA72044C1D0 /* Debug */,
+				AE3E1B8390E9221F455EBD5D0AC634CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F04462F67CBC46919955902AB6D668 /* Build configuration list for PBXNativeTarget "Pods-SDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210002D8D98ED55CD263D89E8AF9832D /* Debug */,
+				6DB73A28E02ED6401DF406540FFEF74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
